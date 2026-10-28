@@ -1,0 +1,10 @@
+ID,Risk,Impact,Likelihood,Mitigation,Owner,Status
+R1,Unclear decision or target,High,Medium,Write and review the problem-framing memo,Project owner,Open
+R2,Data used without suitable permission or notice,High,Medium,Verify provenance and permission before use,Data owner,Open
+R3,Missing or poor-quality labels,High,Medium,Profile missingness and validate label definitions,Data analyst,Open
+R4,Target or time leakage,High,Medium,Audit feature availability and use a suitable split,ML engineer,Open
+R5,Unequal error rates across relevant groups,High,Unknown,Define lawful subgroup evaluation and mitigation,Responsible reviewer,Open
+R6,False positives cause unnecessary action,High,Unknown,Set cost-aware thresholds and human review,Decision owner,Open
+R7,False negatives miss important cases,High,Unknown,Set cost-aware thresholds and monitor misses,Decision owner,Open
+R8,Model/data drift after release,Medium,Medium,Monitor data quality and performance; define rollback triggers,Operations owner,Open
+R9,Model unavailable or unsafe,High,Low,Use documented non-ML fallback and rollback plan,Operations owner,Open

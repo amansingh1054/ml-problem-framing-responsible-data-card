@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and outputs (do not commit private or sensitive data)
+data/
+outputs/
+*.csv.tmp
